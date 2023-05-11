@@ -68,11 +68,11 @@ Simplex method and Two-phase method calculators written in Matlab.Each has it's 
 
 ## Irregular cases taken into consideration
 
- - Unbounded solutions:
+ - #### Unbounded solutions:
     
      With the Simplex method, we recognize this problem when the incoming variable does not admit any limit on its input value, that is to say that all the quantities aij are negative or zero.
 
- - The problem is not feasible:
+ - ##### The problem is not feasible:
     
     With the Simplex method, we recognize that the
     problem is impossible if one or more artificial variables are present in the base in the optimal Simplex table, which means that the solution given by this table is not really feasible.
